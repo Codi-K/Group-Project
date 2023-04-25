@@ -31,6 +31,8 @@ header, img, nav{
 .navbar{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    
 }
 .navbar a {
     padding: 30px;
@@ -42,6 +44,7 @@ header, img, nav{
 .contact-left{
     flex: 60%;
     padding: 40px 60px;
+    
 }
 .contact-right{
     flex: 60%;
@@ -51,6 +54,7 @@ header, img, nav{
 }
 h1{
     margin-bottom: 10px;
+    color: #1c00b5;
 }
 .container p{
     margin-bottom: 40px;
@@ -62,6 +66,7 @@ input-row{
 }
 .input-row .input-group{
     flex-basis: 45%;
+    /* text-align: */
 }
 input{
     width: 100%;
@@ -93,4 +98,25 @@ button{
     margin-top: 20px;
     box-shadow: opx 5px 15px 0px rgba(28,0,181,0.3);
 
+}
+ .contact-left h3{
+    
+    font-weight: 600;
+    margin-bottom: 30px; 
+    color: blue;
+
+    
+ }
+ 
+/* .contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+padding-right: 20px;
+padding-top: 20px;
+}  */
+tr td{
+    padding-top: 20px;
+    padding-right: 20px;
 }
